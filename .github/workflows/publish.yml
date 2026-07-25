@@ -64,10 +64,3 @@ jobs:
         with:
           path: ubuntu/.build-cache
           key: ${{ steps.deb-cache-restore.outputs.cache-primary-key }}
-
-      - name: Upload Ubuntu repo
-        uses: actions/upload-artifact@v4
-        with:
-          name: ubuntu-repo
-          path: repo/ubuntu/
-          retention-days: 1
