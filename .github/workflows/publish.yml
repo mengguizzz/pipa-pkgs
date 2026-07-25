@@ -69,5 +69,5 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: ubuntu-repo
-          path: repo/ubuntupackages/
+          path: repo/ubuntu/
           retention-days: 1
