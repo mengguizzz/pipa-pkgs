@@ -64,6 +64,28 @@ jobs:
         with:
           path: ubuntu/.build-cache
           key: ${{ steps.deb-cache-restore.outputs.cache-primary-key }}
+
+      - name: Generate directory index
+        run: |
+          cat << 'EOF' > repo/index.html
+          <!DOCTYPE html>
+          <html><head><title>Pipa Packages Repository</title></head>
+          <body>
+          <h1>Pipa Packages Repository</h1><hr>
+          <ul><li><a href="ubuntu/">ubuntu/</a></li></ul>
+          <hr></body></html>
+          EOF
+          cd repo/ubuntu
+          echo "<!DOCTYPE html><html><head><title>Index of /ubuntu/</title></head><body>" > index.html
+          echo "<h1>Index of /ubuntu/</h1><hr><ul>" >> index.html
+          for file in $(ls -1 | sort); do
+            if [ "$file" != "index.html" ]; then
+              echo "<li><a href=\"$file\">$file</a></li>" >> index.html
+            fi
+          done
+          
+          echo "</ul><hr></body></html>" >> index.html
+          cd ../..
           
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
