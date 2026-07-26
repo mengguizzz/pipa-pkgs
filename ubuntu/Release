@@ -5,11 +5,11 @@ Codename: resolute
 Architectures: arm64 all
 Components: main
 Description: Xiaomi Pad 6 packages for Ubuntu
-Date: Sun, 26 Jul 2026 01:28:56 +0000
+Date: Sun, 26 Jul 2026 01:34:28 +0000
 Acquire-By-Hash: no
 MD5Sum:
  9505ca6fc9929fb99eb375333c3a955f            13844 Packages
- be369e9e6ce795e541e41073dbb6437c             4774 Packages.gz
+ 1147287f99b5786fdd5de61972f1c5c4             4774 Packages.gz
 SHA256:
  6162c4196d90b91a9b9abbbe03863e16557dde798bd70c6ac275d47e96b96df1            13844 Packages
- e3792d2a7e626c48fa5e14f0627fdcf7d967a5e5ae3e563607c152386b0fc3fb             4774 Packages.gz
+ cbb088f8a3eb480cf22e24aaf3223528b78405551d66ef2de12a470acf1a2374             4774 Packages.gz
