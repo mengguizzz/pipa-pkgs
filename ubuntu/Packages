@@ -1,0 +1,392 @@
+Package: bootmac
+Version: 0.6.0-1pipa1
+Architecture: all
+Maintainer: Ayman <ayman@pipa>
+Installed-Size: 28
+Depends: bluez, udev, systemd
+Filename: ./bootmac_0.6.0-1pipa1_all.deb
+Size: 4864
+MD5sum: 121e4b0d58fce1a69cd49774a7e28107
+SHA1: 887779833438c292f37cbc53f2aabf0cad6684ac
+SHA256: 12e119491e8678223ac2d752b6877ee2ec623c21294aeec64fcc77d63dfa8350
+Section: net
+Priority: optional
+Homepage: https://gitlab.postmarketos.org/postmarketOS/bootmac/
+Description: Configure WLAN and Bluetooth MAC addresses at boot
+ Configures the MAC addresses of WLAN and Bluetooth interfaces at boot
+ for devices without persistent MAC storage (Xiaomi Pad 6 / pipa).
+
+Package: gstreamer1.0-libcamera
+Source: libcamera
+Version: 1:0.7.1-3pipa1
+Architecture: arm64
+Maintainer: Ayman <ayman@pipa>
+Installed-Size: 206
+Depends: libcamera0.7 (= 1:0.7.1-3pipa1)
+Filename: ./gstreamer1.0-libcamera_0.7.1-3pipa1_arm64.deb
+Size: 54200
+MD5sum: 2475580c0fb42cc1702faa56ecb8fc83
+SHA1: 8641250233e4c2b03436119f337ec252aa63595f
+SHA256: 506cd22c715c2bdafa52a61dc9547a56ebcf0e04ed16251c3fde3104e8154962
+Section: libs
+Priority: optional
+Homepage: https://libcamera.org/
+Description: GStreamer plugin for libcamera (pipa)
+
+Package: hexagonrpc
+Version: 0.4.0-1pipa1
+Architecture: arm64
+Maintainer: Ayman <ayman@pipa>
+Installed-Size: 235
+Depends: libc6 (>= 2.38), systemd, udev, adduser
+Filename: ./hexagonrpc_0.4.0-1pipa1_arm64.deb
+Size: 21554
+MD5sum: b0be4c4a084554de7d9cb5d2f9555051
+SHA1: edf15fe055522ba020e95be063c1086401fe3ea7
+SHA256: 7db37f9b3f9e939bf43584f99d6aef9f5d411c7781c1ff0120ef680a0825fbc2
+Section: libs
+Priority: optional
+Homepage: https://github.com/linux-msm/hexagonrpc/
+Description: FastRPC ioctl wrapper and reverse tunnel
+ Used to communicate with the Context Hub Runtime Environment on the
+ DSP that manages sensors, and to serve files to remote processors.
+
+Package: iio-sensor-proxy
+Version: 3.9-1pipa1
+Architecture: arm64
+Maintainer: Ayman <ayman@pipa>
+Installed-Size: 230
+Depends: libc6 (>= 2.38), libglib2.0-0t64 (>= 2.76.0), libgudev-1.0-0 (>= 234), libpolkit-gobject-1-0 (>= 0.99), libssc (>= 0.4.4), systemd
+Filename: ./iio-sensor-proxy_3.9-1pipa1_arm64.deb
+Size: 38148
+MD5sum: c13a9b13f28e0886a6d4c507b363ad44
+SHA1: ea7a69d29a7c25e0c6685f7b9ce1643b3469e6eb
+SHA256: 3c579b3a43396e2669de11c6523249a8510423038f21feab23e110dd3b67df7e
+Section: utils
+Priority: optional
+Homepage: https://gitlab.freedesktop.org/hadess/iio-sensor-proxy/
+Description: IIO/SSC sensor proxy with pipa patches
+ D-Bus proxy for IIO and Qualcomm Sensor Core sensors, with pipa-specific
+ SSC resume resilience patches.
+
+Package: libcamera-dev
+Source: libcamera
+Version: 1:0.7.1-3pipa1
+Architecture: arm64
+Maintainer: Ayman <ayman@pipa>
+Installed-Size: 135
+Depends: libcamera0.7 (= 1:0.7.1-3pipa1)
+Filename: ./libcamera-dev_0.7.1-3pipa1_arm64.deb
+Size: 20368
+MD5sum: 4583e2af5c8c2984ccf6021360bdc5e6
+SHA1: c5e8146a104754252b94301f4366ba9e76b3aaa4
+SHA256: e0aa076b8db82e56f27c4a2319767351c6ab65485958475e40276e838ce2be23
+Section: libdevel
+Priority: optional
+Homepage: https://libcamera.org/
+Description: Development files for libcamera (pipa)
+
+Package: libcamera-ipa
+Source: libcamera
+Version: 1:0.7.1-3pipa1
+Architecture: arm64
+Maintainer: Ayman <ayman@pipa>
+Installed-Size: 543
+Depends: libcamera0.7 (= 1:0.7.1-3pipa1)
+Filename: ./libcamera-ipa_0.7.1-3pipa1_arm64.deb
+Size: 105238
+MD5sum: bee0f572e23c894a8ecd6a2d9f6368a4
+SHA1: 68e05e00c64bf73bf61bc4f2f0c3029467051025
+SHA256: a95f193fa68059047dd5bdebc01e0961ad427ed852924210f0a5d2e0d10077ca
+Section: libs
+Priority: optional
+Homepage: https://libcamera.org/
+Description: IPA modules for libcamera (pipa)
+
+Package: libcamera-tools
+Source: libcamera
+Version: 1:0.7.1-3pipa1
+Architecture: arm64
+Maintainer: Ayman <ayman@pipa>
+Installed-Size: 272
+Depends: libcamera0.7 (= 1:0.7.1-3pipa1)
+Filename: ./libcamera-tools_0.7.1-3pipa1_arm64.deb
+Size: 101782
+MD5sum: 5b41a0cc82f7ec3999630b7482b7a965
+SHA1: 3380bea6ff8517328fe59228bf22500bd291b998
+SHA256: a21c79f97505d8f4988bf526bc9f178ec98f5eae5fb99e2cd577848cf68149a4
+Section: libs
+Priority: optional
+Homepage: https://libcamera.org/
+Description: Camera tools for libcamera (pipa)
+
+Package: libcamera0.7
+Source: libcamera
+Version: 1:0.7.1-3pipa1
+Architecture: arm64
+Maintainer: Ayman <ayman@pipa>
+Installed-Size: 1823
+Depends: libc6 (>= 2.38), libdw1t64 (>= 0.158), libegl1, libgcc-s1 (>= 3.3.1), libgles2, liblttng-ust1t64 (>= 2.13.0), libssl3t64 (>= 3.0.0), libstdc++6 (>= 14), libudev1 (>= 183), libyaml-0-2
+Conflicts: libcamera0, libcamera0.5, libcamera0.6
+Replaces: libcamera0, libcamera0.5, libcamera0.6
+Filename: ./libcamera0.7_0.7.1-3pipa1_arm64.deb
+Size: 563746
+MD5sum: e3f370d6bab0d6127f6069dd1d49532a
+SHA1: 043620677d6dbd1bcc0bea196ec6f65f17661988
+SHA256: 2f3d878191e8298af9c1214348f4bc4c8f19514fd6482bf6b972b04f84370ed4
+Section: libs
+Priority: optional
+Homepage: https://libcamera.org/
+Description: Camera support library with pipa sensor support
+ libcamera with OV13B10 and HI846 sensor helpers for Xiaomi Pad 6.
+
+Package: libhexagonrpc-dev
+Source: hexagonrpc
+Version: 0.4.0-1pipa1
+Architecture: arm64
+Maintainer: Ayman <ayman@pipa>
+Installed-Size: 23
+Depends: hexagonrpc (= 0.4.0-1pipa1)
+Filename: ./libhexagonrpc-dev_0.4.0-1pipa1_arm64.deb
+Size: 3066
+MD5sum: 827da76f7264cb35dc63507702cc7754
+SHA1: 6dcd9c50e3752ea138d313720495fa9200696738
+SHA256: 49d162c244e26e379c7c8ba6d3e18325e52f0035775e7c77647478c84881a9e3
+Section: libdevel
+Priority: optional
+Homepage: https://github.com/linux-msm/hexagonrpc/
+Description: Development headers for hexagonrpc
+ Development headers for the hexagonrpc FastRPC library.
+
+Package: libssc
+Version: 0.4.4-1pipa1
+Architecture: arm64
+Maintainer: Ayman <ayman@pipa>
+Installed-Size: 379
+Depends: libc6 (>= 2.34), libglib2.0-0t64 (>= 2.80.0), libprotobuf-c1 (>= 1.0.1), libqmi-glib5 (>= 1.34.0), libqmi-proxy, libqrtr-glib0 (>= 1.0.0)
+Filename: ./libssc_0.4.4-1pipa1_arm64.deb
+Size: 42836
+MD5sum: b3404b6a6ead3f5b7c713f927e63a5e1
+SHA1: 11145f87e00abde9a7dffbeedde78fd2bb2b85a4
+SHA256: 498b4bcc275e37e9822a91c59754bd9dd37a98eb849899f5a489a8f65a7eac4b
+Section: libs
+Priority: optional
+Homepage: https://codeberg.org/DylanVanAssche/libssc
+Description: Library to expose Qualcomm Sensor Core sensors
+ libssc exposes sensors managed by the Qualcomm Sensor Core. This build
+ includes pipa-specific GError guard patches.
+
+Package: libssc-dev
+Source: libssc
+Version: 0.4.4-1pipa1
+Architecture: arm64
+Maintainer: Ayman <ayman@pipa>
+Installed-Size: 87
+Depends: libssc (= 0.4.4-1pipa1)
+Filename: ./libssc-dev_0.4.4-1pipa1_arm64.deb
+Size: 8916
+MD5sum: c47da27b47ddedc4c37b1f5007fc49ae
+SHA1: c455c7874f8ccb9d9975877c53ad043151f4bc3e
+SHA256: 2bbc6d21e0a37d61a2e57b9cc13a58c8cc00db3515047a3ca1765753248b2972
+Section: libdevel
+Priority: optional
+Homepage: https://codeberg.org/DylanVanAssche/libssc
+Description: Development headers for libssc
+ Development files for libssc.
+
+Package: linux-headers-pipa
+Source: linux-pipa
+Version: 7.1.4-1pipa1
+Architecture: arm64
+Maintainer: Ayman <ayman@pipa>
+Installed-Size: 7581
+Provides: linux-headers, linux-headers-arm64
+Filename: ./linux-headers-pipa_7.1.4-1pipa1_arm64.deb
+Size: 1518470
+MD5sum: e666d21e2aa5e5023ca3afbc53d22139
+SHA1: 2fcffa2db343503b3350ffdb77effa5c1540d41e
+SHA256: 602fdd3e347fb91976028e69f38391b9bfd5fa0985f6350f8e242b8dacff2c9a
+Section: kernel
+Priority: optional
+Homepage: https://kernel.org
+Description: Header files for linux-image-pipa
+ Kernel headers for building out-of-tree modules against linux-pipa.
+
+Package: linux-image-pipa
+Source: linux-pipa
+Version: 7.1.4-1pipa1
+Architecture: arm64
+Maintainer: Ayman <ayman@pipa>
+Installed-Size: 133034
+Depends: kmod, dracut | initramfs-tools, xiaomi-pipa-firmware
+Provides: linux-image, linux-image-arm64
+Filename: ./linux-image-pipa_7.1.4-1pipa1_arm64.deb
+Size: 59772844
+MD5sum: e6962b9a5b498d3f9e525cece809b332
+SHA1: bfb013fa77b2c6b4e260ae29de8c17e8e2032bee
+SHA256: 9546215c55d3b849e0ea3a19c8dd4d00215149b642be62f5ed6bcfe295d09f05
+Section: kernel
+Priority: optional
+Homepage: https://kernel.org
+Description: Linux kernel for Xiaomi Pad 6 (pipa)
+ Linux 7.1.4 (kernel.org + device patches) for the Xiaomi Pad 6
+ (SM8250 / pipa).
+
+Package: linux-modules-pipa
+Source: linux-pipa
+Version: 7.1.4-1pipa1
+Architecture: arm64
+Maintainer: Ayman <ayman@pipa>
+Installed-Size: 78102
+Depends: linux-image-pipa (= 7.1.4-1pipa1)
+Filename: ./linux-modules-pipa_7.1.4-1pipa1_arm64.deb
+Size: 42812284
+MD5sum: ac24a641ab398879469da9c66e01ac5b
+SHA1: 73f44119726a913a50478504a1abc76c06b2f0db
+SHA256: 23bfb1aa0cfb651b1786b2501198b2cb990ed6dbe58314675fbe339cec115ede
+Section: kernel
+Priority: optional
+Homepage: https://kernel.org
+Description: Kernel modules for linux-image-pipa
+ Loadable kernel modules for the Xiaomi Pad 6 kernel.
+
+Package: pipa-dracut
+Version: 1.1-5pipa1
+Architecture: all
+Maintainer: Ayman <ayman@pipa>
+Installed-Size: 24
+Depends: xiaomi-pipa-firmware, dracut
+Filename: ./pipa-dracut_1.1-5pipa1_all.deb
+Size: 2946
+MD5sum: b1ab6b64a12f3799a6642633f509259d
+SHA1: 8c78cdce9c98b0389061a16d4f78acbfd8e250fb
+SHA256: 38a3b4af8225acae0e296f0e8906bb00cb9d02cfb822f203f6c5751fe02e61bd
+Section: kernel
+Priority: optional
+Description: Dracut modules for the Xiaomi Pad 6
+ Dracut module and configuration for the Xiaomi Pad 6 (pipa), including
+ firmware loading and an initramfs refresh helper.
+
+Package: pipa-grub-config
+Version: 1.0-5pipa1
+Architecture: all
+Maintainer: Ayman <ayman@pipa>
+Installed-Size: 25
+Depends: bash, coreutils, util-linux, grub-efi-arm64
+Filename: ./pipa-grub-config_1.0-5pipa1_all.deb
+Size: 3514
+MD5sum: 4430974bc0d49d9881e47330a7eebdc6
+SHA1: d3bde1e611f4645112ccdbcad47859f918dc761a
+SHA256: 6567085452ca59ff14b3cdc9bf729b07ef7cdabc5c0fdd796e4d223fade12a08
+Section: admin
+Priority: optional
+Description: GRUB config refresh helper for Xiaomi Pad 6
+ Refreshes the Xiaomi Pad 6 GRUB menu and keeps the DTB entry as default.
+
+Package: pipa-metapkg
+Version: 1.1-4pipa1
+Architecture: all
+Maintainer: Ayman <ayman@pipa>
+Installed-Size: 15
+Depends: linux-image-pipa, linux-modules-pipa, xiaomi-pipa-firmware, linux-firmware, pipa-dracut, pipa-grub-config, pipa-sound-conf, pipa-sensors, swclock-offset, bootmac, hexagonrpc, libssc, libcamera0.7, libcamera-ipa, libcamera-tools, iio-sensor-proxy, mesa-vulkan-drivers, wireless-regdb, bluez
+Recommends: gstreamer1.0-libcamera, tuned, qrtr-tools, rmtfs, tqftpserv, pd-mapper
+Filename: ./pipa-metapkg_1.1-4pipa1_all.deb
+Size: 1786
+MD5sum: 416b627d693c698cdbe5e0ffa217712a
+SHA1: 2ea1aee47ff07ff0d9f350f252839fd6d61b35c5
+SHA256: 35b26eaf12b9827710a2ff871d26ce3869d1d41cb93f1b91ffc8ba393f6b8c74
+Section: metapackages
+Priority: optional
+Description: Xiaomi Pad 6 support meta package for Ubuntu
+ Pulls in the full device support stack for running Ubuntu on the
+ Xiaomi Pad 6 (pipa): custom kernel, firmware, sensors, audio, camera,
+ and boot configuration. Also installs the pipa-pkgs apt source.
+
+Package: pipa-sensors
+Version: 1.2-4pipa1
+Architecture: all
+Maintainer: Ayman <ayman@pipa>
+Installed-Size: 38
+Depends: xiaomi-pipa-firmware, iio-sensor-proxy, hexagonrpc
+Filename: ./pipa-sensors_1.2-4pipa1_all.deb
+Size: 4210
+MD5sum: f5a30402e22843b6f5fc5e998f6e051e
+SHA1: 1774f5fa5dc0bb784a1d1d1fec1e87bae5c221c2
+SHA256: 3b41fbef463f9c106b3789e8c027410760de30b837c40b8eb32b42972e03a4e1
+Section: utils
+Priority: optional
+Description: Sensor configuration for Xiaomi Pad 6
+ Sensor configuration, udev rules, systemd services, and resume hooks
+ for the Xiaomi Pad 6 (pipa).
+
+Package: pipa-sound-conf
+Version: 1.4-12pipa1
+Architecture: all
+Maintainer: Ayman <ayman@pipa>
+Installed-Size: 38
+Depends: alsa-ucm-conf, alsa-utils, wireplumber
+Provides: alsa-ucm-conf-sm8250 (= 1.0), alsa-ucm-conf-xiaomi-pipa (= 1.4)
+Filename: ./pipa-sound-conf_1.4-12pipa1_all.deb
+Size: 3888
+MD5sum: 8a86eb281bdb8b3523745ee9b84e7a40
+SHA1: 6305c230b7f67fab324ce6ca5816aaa79d11eb6c
+SHA256: 6d28f10659477de19e02c1dcd2b2eaf247213c218e132beea6b9f30d62ed83e7
+Section: sound
+Priority: optional
+Description: Sound and camera settings for Xiaomi Pad 6
+ WirePlumber audio and camera configuration, ALSA UCM profiles, and
+ audio initialization for the Xiaomi Pad 6 (pipa).
+
+Package: python3-libcamera
+Source: libcamera
+Version: 1:0.7.1-3pipa1
+Architecture: arm64
+Maintainer: Ayman <ayman@pipa>
+Installed-Size: 1104
+Depends: libcamera0.7 (= 1:0.7.1-3pipa1)
+Filename: ./python3-libcamera_0.7.1-3pipa1_arm64.deb
+Size: 280304
+MD5sum: 21880337ef5dd028851a3792966104a9
+SHA1: a0a39b19732aa532e66d0b88274cef1e6816956f
+SHA256: e1b1223a03a4e0c6c3f5293bb7e96dc79f9a6bd897aeda5e0a88f6fd7c424f10
+Section: libs
+Priority: optional
+Homepage: https://libcamera.org/
+Description: Python bindings for libcamera (pipa)
+
+Package: swclock-offset
+Version: 0.3.0-1pipa1
+Architecture: all
+Maintainer: Ayman <ayman@pipa>
+Installed-Size: 23
+Depends: systemd
+Filename: ./swclock-offset_0.3.0-1pipa1_all.deb
+Size: 3148
+MD5sum: 1d6c6b1803a6afffa1700014e6c0aab4
+SHA1: f132de322431af871b3e491b5a6da7290c52c4e7
+SHA256: 33e7f7e8aefe3d357e06e00628271d1ceb8ec1120074988263402afb8a9a62aa
+Section: utils
+Priority: optional
+Homepage: https://gitlab.postmarketos.org/postmarketOS/swclock-offset
+Description: Keep system time at an offset to a non-writable RTC
+ Needed on devices like the Xiaomi Pad 6 where the hardware RTC is
+ not directly writable.
+
+Package: xiaomi-pipa-firmware
+Version: 1.1-4pipa1
+Architecture: all
+Maintainer: Ayman <ayman@pipa>
+Installed-Size: 62845
+Depends: linux-firmware
+Filename: ./xiaomi-pipa-firmware_1.1-4pipa1_all.deb
+Size: 20550184
+MD5sum: a05fafb16ec9f7690f0b16a2ebbc2898
+SHA1: ef9eceb41262d45ec7e246df64b7059ae649a0dc
+SHA256: c5f4ade9f0ce83cb014839faffd911d7958d6d5dbc3411b7fd4361129c5d0718
+Section: non-free/kernel
+Priority: optional
+Homepage: https://github.com/pipa-mainline/xiaomi-pipa-firmware
+Description: Firmware for Xiaomi Pad 6 (pipa)
+ Firmware for speaker amplifiers, DSP, touchscreen, SoC blobs, and
+ wireless charging on the Xiaomi Pad 6.
+

@@ -1,0 +1,15 @@
+Origin: pipa-pkgs
+Label: pipa-pkgs
+Suite: resolute
+Codename: resolute
+Architectures: arm64 all
+Components: main
+Description: Xiaomi Pad 6 packages for Ubuntu
+Date: Sun, 26 Jul 2026 00:56:34 +0000
+Acquire-By-Hash: no
+MD5Sum:
+ 9505ca6fc9929fb99eb375333c3a955f            13844 Packages
+ 18ce5b944424eee28c4b27b3a2c90262             4774 Packages.gz
+SHA256:
+ 6162c4196d90b91a9b9abbbe03863e16557dde798bd70c6ac275d47e96b96df1            13844 Packages
+ e6b238f029a1b43363afb0e045557b6f2e3f1821d57dca349eecb9b60227370c             4774 Packages.gz
