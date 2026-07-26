@@ -196,16 +196,16 @@ Description: Development headers for libssc
 
 Package: linux-headers-pipa
 Source: linux-pipa
-Version: 7.1.4-1pipa1
+Version: 7.1.4-2pipa1
 Architecture: arm64
 Maintainer: Ayman <ayman@pipa>
 Installed-Size: 7581
 Provides: linux-headers, linux-headers-arm64
-Filename: ./linux-headers-pipa_7.1.4-1pipa1_arm64.deb
-Size: 1518470
-MD5sum: e666d21e2aa5e5023ca3afbc53d22139
-SHA1: 2fcffa2db343503b3350ffdb77effa5c1540d41e
-SHA256: 602fdd3e347fb91976028e69f38391b9bfd5fa0985f6350f8e242b8dacff2c9a
+Filename: ./linux-headers-pipa_7.1.4-2pipa1_arm64.deb
+Size: 1518532
+MD5sum: eabc903e2fac9de2b469a76b3867eed1
+SHA1: ce0bf5f273faf0271985d584943065aa3df6e3a5
+SHA256: 9467abe61586ccaecaae3c3639c94cbe11d593d4d0632b5fcf3eafe2d791eebe
 Section: kernel
 Priority: optional
 Homepage: https://kernel.org
@@ -214,17 +214,17 @@ Description: Header files for linux-image-pipa
 
 Package: linux-image-pipa
 Source: linux-pipa
-Version: 7.1.4-1pipa1
+Version: 7.1.4-2pipa1
 Architecture: arm64
 Maintainer: Ayman <ayman@pipa>
-Installed-Size: 133034
+Installed-Size: 133047
 Depends: kmod, dracut | initramfs-tools, xiaomi-pipa-firmware
 Provides: linux-image, linux-image-arm64
-Filename: ./linux-image-pipa_7.1.4-1pipa1_arm64.deb
-Size: 59772844
-MD5sum: e6962b9a5b498d3f9e525cece809b332
-SHA1: bfb013fa77b2c6b4e260ae29de8c17e8e2032bee
-SHA256: 9546215c55d3b849e0ea3a19c8dd4d00215149b642be62f5ed6bcfe295d09f05
+Filename: ./linux-image-pipa_7.1.4-2pipa1_arm64.deb
+Size: 59797990
+MD5sum: 6ecc4f3f08c5942beda3a8c209797f7a
+SHA1: a10cdf0c386c288aaf378a5788306c6169d321db
+SHA256: 88a830783874ca2d7af2cb349b0d4402f400d04779f32f317300830eaa5fd1fd
 Section: kernel
 Priority: optional
 Homepage: https://kernel.org
@@ -234,16 +234,16 @@ Description: Linux kernel for Xiaomi Pad 6 (pipa)
 
 Package: linux-modules-pipa
 Source: linux-pipa
-Version: 7.1.4-1pipa1
+Version: 7.1.4-2pipa1
 Architecture: arm64
 Maintainer: Ayman <ayman@pipa>
-Installed-Size: 78102
-Depends: linux-image-pipa (= 7.1.4-1pipa1)
-Filename: ./linux-modules-pipa_7.1.4-1pipa1_arm64.deb
-Size: 42812284
-MD5sum: ac24a641ab398879469da9c66e01ac5b
-SHA1: 73f44119726a913a50478504a1abc76c06b2f0db
-SHA256: 23bfb1aa0cfb651b1786b2501198b2cb990ed6dbe58314675fbe339cec115ede
+Installed-Size: 78107
+Depends: linux-image-pipa (= 7.1.4-2pipa1)
+Filename: ./linux-modules-pipa_7.1.4-2pipa1_arm64.deb
+Size: 42821702
+MD5sum: 83e2e12fb89e5895c0543c04e3fb80b5
+SHA1: 5b23bf0978abcf41165f7190ce323e88cf2fea7c
+SHA256: 9251957dba57b6da6eacd709fdd3758bb69974dfbeffaf466f4a8e73ff90cece
 Section: kernel
 Priority: optional
 Homepage: https://kernel.org
